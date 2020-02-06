@@ -1,0 +1,432 @@
+*{
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;/*se adapta añ ancho y alto total del elemento*/
+  font-family: 'Roboto', sans-serif;
+  
+}
+body{
+    background: #1c1c25;    
+    
+}
+header{
+    color: #fff;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+.logo{
+    margin: 0; 
+    padding: 0;
+}
+.logo_menu{
+    background:#25262e;
+}
+.logo_menu .logo img{
+    width: 80%;
+    margin-top: 5px;
+    float: left;
+}
+.logo_menu h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.carrito img{
+    width: 30px;
+}
+.logo_menu .menu a{
+    padding: 0px 20px;
+    display: inline-block;
+
+}
+.sub_menu{
+    
+}
+.menu2 ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px 0px;
+    margin: 10px 30px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(140, 33, 92, 0);
+}
+.menu2 ul li:hover{
+    border-bottom: 1px solid #8c215c;
+    transition: .2s;
+}
+.menu2 ul li a{
+    
+    clear: both;
+}
+.buscador{
+    
+background-color: #25262e;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+.contenedor-slide{
+    margin: 0; padding: 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.contenedor-popular{
+    background-color: #25262e;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.popular{
+    color: white;
+}
+.popular1{
+    background-color: #3d3e45;
+    padding: 5px 10px 2px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+.popular1:hover{
+    background-color: #84858e;
+    transition: .2s;
+}
+.catalogo2{
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px
+}
+.popular1 .infopopular{
+    padding: 0px 5px;
+    color: white;
+}
+.popular1 h3{
+    font-size: 15px;
+}
+.popular1 p{
+    font-size: 12px;
+}
+.popular1 .preciopopular{
+    border-left: 1px solid white;padding: 0px 10px; padding-top: 2px;
+}
+
+.preciopopular p{
+    font-size: 18px;
+    font-weight: 800;
+}
+.preciopopular h5{
+    text-align: left;
+    background-color: #951e5f;
+    float: left;
+    padding: 2px 5px;
+    font-size: 8px;
+}
+
+.popular .botonprecio{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding-top: 10px;
+}
+.popular .botonprecio a{
+    background-color: #951e5f;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-size: 11px;
+}
+.buscador input{
+    width: 90%;
+    float: left;
+    border: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+        
+}
+.buscador button{
+    width: 10%;
+    float: right;
+padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    background:#F6967F ;
+   	
+}
+.imagenpopular{
+    width: 10%;
+    float: left;
+}
+.imagenpopular img{
+    width: 100%;
+
+}
+.infopopular{
+    width: 40% ;
+    float: left;
+
+}
+.preciopopular{
+    width: 30%;
+    float: left;
+
+}
+.botonprecio{
+    width: 10%;
+    float: left;
+
+}
+.clear{
+    clear: both;
+}
+.banner-slide img{
+    width: 100%;
+}
+.productos{
+	width:100%;
+}
+
+.imagencatalogo img{
+	width: 100%
+}
+
+
+.banner2{
+}
+.banner2 img{
+    width: 100%;
+}
+.banner3{
+}
+.banner3 img{
+    width: 100%;
+}
+.footer{
+    background: #25262e;
+    padding: 10px;
+}
+.footer img{
+    width: 50%;
+}
+.redes h2{
+    float: center;
+}
+
+.redes ul{
+    
+    margin:0; /*reset de ul*/
+   padding:0; /*reset de ul*/
+   float: center;
+   list-style: none;
+   
+}
+.redes h2{
+    float: right;
+}
+
+
+.redes li{
+    float: right;
+}
+.quienessomos{
+    float: right;
+}
+
+.titulo{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 27px;
+    font-weight: 300;
+    padding: 20px;
+}
+.catalogo2{
+    margin-bottom: 25px;
+}
+.catalogo .arrow{
+    text-align: center;
+}
+.catalogo2 .contenido-juegos{
+    background-color: #25262e;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.catalogo2 h3{
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 10px 15px 5px;
+}
+.arrow{
+    padding-top: 120px;
+}
+.catalogo2 h1{
+    color: white;
+    font-size: 15px;
+    padding: 0px 15px;
+    margin-bottom: 10px
+}
+.catalogo2 h2{
+    color: white;
+    padding: 5px 15px;
+    float: left;
+    font-size: 20px;
+}
+.catalogo2 button{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    margin-bottom: 10px;
+}
+.catalogo2 a{
+    color: white;
+    text-decoration: none;
+    float: left;
+    background-color: #951e5f;
+    padding: 9px 15px; 
+    border-radius: 15px;
+}
+.categorias ul{
+    background-color: #25262e;
+    padding: 20px;
+    border-radius: 20px;
+}
+.categorias ul li{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    margin-bottom: 10px
+}
+.categorias ul li strong{
+    float: right;
+}
+.categorias ul li a{
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    font-weight: 300;
+}
+.categorias .activo a{
+    color: white !important;
+}
+.categorias ul li:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: .2s;
+}
+.productos .titulo{
+    text-align: left;
+}
+.productos .titulo{
+}
+.footer{
+    border-bottom: 4px solid #ba1f68;
+}
+.info-footer .titulo{
+    text-align: left;
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.info-footer hr{
+    width: 20px;
+    border: 2px solid #ba1f68;
+    margin-bottom: 5px;
+}
+.info-footer p{
+    font-size: 12px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.error{
+    text-align: center;
+    margin-bottom: 300px;
+}
+.error h4{
+    color: #ba1f68;
+    font-weight: 300;
+    font-size: 80px
+}
+.error h2{
+    font-size: 200px;
+    color: white;
+    line-height: 180px;
+}
+
+@media (max-width: 600px){
+    .arrow{
+        display: none;
+        
+    }
+    .catalogo2 h2 {
+        float: none;
+    text-align: center;
+    }
+    .catalogo2 a{
+        float: none;
+        width: 100%
+    }
+    .catalogo2 button{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 100%;
+        float: none;
+    }
+    .menu2 ul li {
+    list-style-type: none;
+    float: left;
+    padding: 10px 0px;
+        margin: 10px 18px;
+    }
+    .buscador{
+        margin-bottom: 20px;
+    }
+    .logo_menu .logo img {
+        float: none;
+        width: 50%;
+    }
+    .logo_menu .end-xs{
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .catalogo2{
+        width: 50%;
+    }
+}
+
+.containerform{
+    width: 30%;
+    margin: 0 auto;
+    padding:100px 0px;
+    margin-bottom: 100px;
+}
+.containerform input{
+    width: 100%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 30px;margin-top: 10px;
+    margin-bottom: 10px;
+}
+.containerform b{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.containerform button{
+    background-color: #ba1f68;
+    border: none;
+}
+.containerform button a{
+    
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
